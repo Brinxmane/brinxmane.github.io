@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Background */
+html {
+	background: url('images/bg/1.jpg') fixed center no-repeat;
+	font-family: "Ubuntu";
+	color: var(--text);
+}
+
+/* Content */
+#content {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 600; height: 600;
+	background: url(images/bg/1.jpg);
+}
+
+/* Spine */
+#spine {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: ;
+	left: 0; right: 0;
+	width: 99%; height: 25%;
+	border: 1px solid var(--border);
+	background: url(images/bg/3.jpg) fixed center;
+	opacity: 0;
+}
+
+/* Colors */
+:root {
+	--border: #547179;
+	--background: #15253C;
+	--text: #8EC0E0;
+	--texthover: #D3B1A9;
+}
+
+/* Fonts */
+
+/* Search */
+#searchcontainer {
+	position: absolute;
+	margin: auto;
+	top: 70%; bottom: ;
+	left: 0; right: 0;	
+	width: 100%;
+}
+#search {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 80%; height: 40px;
+	background-color: var(--background);
+	#background: transparent;
+	border: 2px solid var(--border);
+	outline: none;
+	text-align: center;
+	font-family: "Ubuntu", "Tahoma";
+	font-size: 24px;
+	color: var(--text);
+}
+
+/* Comfy */
+#comfy {
+	position: absolute;
+	margin: auto;
+	top: 5%; bottom: ;
+	left: 0; right: 0;
+	
+}
+
+a.linklge, a:link, a:visited {
+	margin: auto;
+	display: list-item;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	color: var(--text);
+	width: 280px; height: 30px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid var(--border);
+	background-color: var(--background);
+}
+a.linklge:hover {
+	color: var(--texthover);
+	text-decoration: underline;
+}*/
+
+/*li {
+	list-style-type: none;
+	outline: none;
+	border: none;
+}*/
