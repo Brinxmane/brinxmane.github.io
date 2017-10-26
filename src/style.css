@@ -70,18 +70,18 @@ html {
 	margin: auto;
 	top: 5%; bottom: ;
 	left: 0; right: 0;
-	
 }
 
 a.linklge, a:link, a:visited {
 	margin: auto;
+	font-size: 22px;
 	display: list-item;
 	list-style-type: none;
 	text-align: center;
 	text-decoration: none;
 	color: var(--text);
 	width: 280px; height: 30px;
-	padding-top: 10px;
+	padding-top: 10px; padding-bottom: 5px;
 	margin-bottom: 10px;
 	border: 2px solid var(--border);
 	background-color: var(--background);
