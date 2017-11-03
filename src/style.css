@@ -72,12 +72,21 @@ html {
 	left: 0; right: 0;
 }
 
-/* Work */
-#work {
+/* Dropdowns */
+#work /* Work Drop */{
 	position: absolute;
 	margin: auto;
 	top: 5%; bottom: ;
-	left: 20px; right: ;
+	left: 5%; right: ;
+}
+#waste /* Waste Drop */{
+	position: absolute;
+	margin: auto;
+	top: 5%; bottom: ;
+	left: ; right: 5%;
+}
+#waste a.drop {
+	text-align: right;
 }
 
 /* Dropdown */
@@ -96,8 +105,8 @@ html {
 	background-color: #1C3252;
 }
 .dropdown {
-	#position: relative;
-	#display: block;
+	position: relative;
+	display: inline-block;
 }
 /* Dropdown Content (hidden by default) */
 .dropdown-content {
