@@ -117,6 +117,7 @@ html {
 	margin-top: ;
 	border: 2px solid var(--border);
 	z-index: 1;
+	
 }
 .dropdown:hover .dropdown-content {
 	display: block;
