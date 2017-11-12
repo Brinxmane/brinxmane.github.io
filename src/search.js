@@ -14,7 +14,7 @@ String.prototype.replaceChars = function(character, replacement){
     }
     return str;
 }
- 
+
 function search(query){
     switch(query.substr(0, 2)){
         case "~i":
@@ -29,7 +29,7 @@ function search(query){
                 "https://www.youtube.com/results?search_query=" +
                 query.replaceChars(" ", "%20");
             break;
-			
+
 		case "~w":
 			query = query.substr(3);
 			window.location =
@@ -39,11 +39,11 @@ function search(query){
 
 		case "~u":
 			query=query.substr(3);
-			window.location = 
-				"http://" + 
+			window.location =
+				"http://" +
 				query.replaceChars(" ", "%20");
             break;
-			
+
 		// 4chan Search
 		// Typing "~4" followed by a thread, eg; (wg, g, pol) and "#" enters the catalog for that thread.
 		// Typing "~4" followed by a thread and a query, eg; (wg/comfy) enters the catalog for that thread with the searched query. Note: (queries can only be one word)
@@ -62,13 +62,21 @@ function search(query){
 				"https://www.reddit.com/r/" +
 				query.replaceChars(" ", "/search?q=").replace("07", "2007scape").replace("up", "unixporn");
 			break;
-			
+
+      // DuckDuckGo
+  		case "~d":
+  			query=query.substr(3);
+  			window.location =
+  				"https://duckduckgo.com/?q=" +
+  				query.replaceChars(" ", "+");
+  			break;
+
         default:
             window.location="https://www.google.com.au/search?q=" +
                 query.replaceChars(" ", "+");
     }
 }
- 
+
 	window.onload = function(){
     searchinput = document.getElementById("search");
     if(!!searchinput){
@@ -80,7 +88,7 @@ function search(query){
             }
         });
     }
- 
+
     var search_sqr = document.getElementById("search_sqr");
- 
+
         }
