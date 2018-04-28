@@ -1,11 +1,18 @@
-# home
-🏠 is where the browser starts.  
-A super lightweight and self-contained startpage.  
+# Brinxmane ~ Home
+Home is where the magic begins, daily.  
+Fast and powerful startpage for easily navigating to favourites
+
+THIS PAGE HAS BEEN MOSTLY FORKED FROM "https://github.com/sohansubhash/home"
+	* This was done to get a base as I really enjoyed the search features
+	* Updating overtime to re-create my own startpage 
+	* Eventually will only use the forked search feature
 
 #### The status bar (from left to right):
 	- counter for the days left in the week : month : year (excluding today)
+		* date and weather
 	- search (see below for commands)
 	- sunrise/sunset info
+		* current time
 
 
 ![Screenshot](screenshot.png?raw=true "Screenshot")
@@ -13,30 +20,24 @@ A super lightweight and self-contained startpage.
 #### search box usage
 ```
 y		# takes you to youtube.com
-eff.org		# takes you to eff.org
-y/trending	# takes you to youtube.com/trending
-r/r/apple	# takes you to reddit.com/r/apple
+site.com	# takes you to site.com
+t/brinxmane	# takes you to twitter.com/brinxmane
+ t/ brinxmane does the same
+r/r/edc		# takes you to reddit.com/r/EDC
+* r/ r/edc does the same
 
-pacific rim 	# searches google for pacific rim
-gh: twitter	# searches github for twitter
-n: friends	# searchs netflix for friends
+good memes 	# searches google for good memes
+y: edgy music	# searches youtube for edgy music
+y/ edgy music does the same
+n: black mirror	# searchs netflix for black mirror
+* n:black mirror does the same
 ```
 
 #### list of keys
 ```
+d: duckduckgo		r: reddit
 g: gmail		y: youtube
-pm: protonmail		tw: twitch
-p: pinboard		vm: vimeo
 gh: github		n: netflix
-d: drive		hbo: hbogo
+t: twitter		gd: g drive
 
-r: reddit		gs: gradescope
-h: hackernews		b: bcourses
-ph: producthunt		c: calcentral
-t: twitter		pi: piazza
-v: theverge
-w: wired
 ```
-#### Contributions
-
-This project is heavily inspired by Cade Scroggins' excellent [tilde](https://github.com/cadejscroggins/tilde). I also use [SunCalc](https://github.com/mourner/suncalc) for calculating sunrise/sunset times.
