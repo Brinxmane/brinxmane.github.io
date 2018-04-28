@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+/* Font Install */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* Background */
+html {
+	background: url('images/bg/1.jpg') fixed center no-repeat;
+	font-family: 'Ubuntu', sans-serif;
+	color: var(--text);
+}
+
+/* Content */
+#content {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 600; height: 600;
+	background: url(images/bg/1.jpg);
+}
+
+/* Spine *
+#spine {
+	position: absolute;
+	margin: auto;
+	top: 4%; bottom: ;
+	left: 4%; right: ;
+	width: 99%; height: 35%;
+	border: 1px solid var(--border);
+	background: url(images/bg/3.jpg) fixed center;
+	opacity: 50;
+}*/
+
+/* Colors */
+:root {
+	--border: #547179;
+	--background: #15253C;
+	--text: #8EC0E0;
+	--texthover: #D3B1A9;
+}
+
+/* Fonts */
+
+/* Search */
+#searchcontainer {
+	position: absolute;
+	margin: auto;
+	top: 70%; bottom: ;
+	left: 0; right: 0;	
+	width: 100%;
+}
+#search {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	width: 80%; height: 40px;
+	background-color: var(--background);
+	#background: transparent;
+	border: 2px solid var(--border);
+	outline: none;
+	text-align: center;
+	font-family: "Ubuntu", "Tahoma";
+	font-size: 24px;
+	color: var(--text);
+}
+
+/* Comfy */
+#comfy {
+	position: absolute;
+	margin: auto;
+	top: 5%; bottom: ;
+	left: 0; right: 0;
+}
+
+/* Dropdowns */
+#work /* Work Drop */{
+	position: absolute;
+	margin: auto;
+	top: 5%; bottom: ;
+	left: 5%; right: ;
+}
+#waste /* Waste Drop */{
+	position: absolute;
+	margin: auto;
+	top: 5%; bottom: ;
+	left: ; right: 5%;
+}
+#waste a.drop {
+	text-align: right;
+}
+
+/* Dropdown */
+.dropbtn {
+	background-color: var(--background);
+	border: 2px solid var(--border);
+	padding-top: 15px; padding-bottom: 15px;
+	width: 180px;
+	cursor: pointer;
+	font-size: 22px;
+	color: var(--text);
+	text-align: center;
+	text-decoration: none;
+}
+.dropbtn:hover {
+	background-color: #1C3252;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+/* Dropdown Content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: var(--background);
+	min-width: 90%;
+	margin-top: ;
+	border: 2px solid var(--border);
+	z-index: 1;
+	
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* Links within dropdown */
+.dropdown-content a.drop {
+	color: var(--text);
+	padding-top: 10px; padding-bottom: 10px;
+	padding-left: 10px; padding-right: 10px;
+	display: block;
+}
+
+a.linklge, a.linklge:link, a.linklge:visited {
+	margin: auto;
+	font-size: 22px;
+	display: list-item;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	color: var(--text);
+	width: 280px; #height: 30px;
+	padding-top: 15px; padding-bottom: 15px;
+	margin-bottom: 10px;
+	border: 2px solid var(--border);
+	background-color: var(--background);
+}
+a.linklge:hover, a.drop:hover {
+	color: var(--texthover);
+	text-decoration: underline;
+	background-color: #1C3252;
+}
+
+/*li {
+	list-style-type: none;
+	outline: none;
+	border: none;
+}*/
